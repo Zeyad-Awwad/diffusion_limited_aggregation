@@ -8,4 +8,6 @@ Diffusion for any individual particle stops when it is adjacent to a cluster par
 
 Adjacency can be determined by either 4-way or 8-way nearest neighbors, depending on the "diagonals" flag (True includes diagonals, making 8 neighbors).
 
+The following example was generated from the default parameters in the notebook.
+
 ![An example of a DLA cluster with ~20,000 particles](example.png)
