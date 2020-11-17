@@ -102,7 +102,7 @@ def DLA(N, N_particles, N_steps, R0, diagonals, r_ratio = 1.5):
         radius: the radius of the circle from the center of the grid
         N2: the index of the center of the square grid
         diagonals: if True, uses 8-way nearest neighbors (otherwise 4)
-        r_ratio: a scaling factor for the radius for particle regeneration
+        r_ratio: a scaling factor for the cluster radius used to determine particle regeneration distance and set the stray particle limit
     
     Returns:
         P: a (2 x N_particles) array of particle locations as grid indices 
