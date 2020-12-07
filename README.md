@@ -1,6 +1,6 @@
 # diffusion_limited_aggregation
 
-Computes a grid-based DLA using particle swarm diffusion. The method uses numpy's vectorized operations for scalability so larger particle swarms generally perform better.
+This method computes a grid-based DLA using particle swarm diffusion. The method uses numpy's vectorized operations for scalability so larger particle swarms generally perform better.
 
 Particles are generated randomly along a circular radius that begins at a fixed distance (e.g. 100 cells away) but later grows in proportion to the cluster. Each diffusion step consists of a single random step (vertically or horizontally) in the grid. 
 
@@ -10,4 +10,4 @@ Adjacency can be determined by either 4-way or 8-way nearest neighbors, dependin
 
 The following example was generated from the default parameters in the notebook.
 
-![An example of a DLA cluster with ~37,000 particles](example.png)
+![An example of a DLA cluster with ~37,000 particles](example.gif)
